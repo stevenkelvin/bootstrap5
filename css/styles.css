@@ -1,0 +1,11 @@
+.navbar-brand {
+    padding: 0 0 0 30px;
+}
+
+.navbar-collapse{
+  padding: 0 0 0 30px;
+}
+
+.navbar-toggler{
+  margin: 0 30px 0 0;
+}
