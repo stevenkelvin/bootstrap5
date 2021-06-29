@@ -1,27 +1,27 @@
 .navbar-custom{
   background-color: #FFD8CC;
-  padding:10px 0;
+  padding:0.625rem 0;
   width: 100%;
   position: fixed;
   top: 0;
 }
 
 .navbar-brand {
-  padding: 0 0 0 30px;
-  font-size: 40px;
+  padding: 0 0 0 1.875rem;
+  font-size: 2.5rem;
 }
 
 .icon-image{
   width: 30%;
-  padding: 0 30px 10px 0;
+  padding: 0 1.875rem 0.625rem 0;
 }
 
 .navbar-collapse{
-  padding: 0 0 0 30px;
+  padding: 0 0 0 1.875rem;
 }
 
 .navbar-toggler{
-  margin: 0 30px 0 0;
+  margin: 0 1.875rem 0 0;
 }
 
 .row{
@@ -33,6 +33,6 @@
 }
 
 #title{
-  padding-top: 100px;
+  padding-top: 6.25rem;
   background-color: #FFBD9B;
 }
