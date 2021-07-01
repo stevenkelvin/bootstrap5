@@ -1,38 +1,127 @@
-.navbar-custom{
-  background-color: #FFD8CC;
-  padding:0.625rem 0;
+button{
+  background-color: #CDF0EA;
+  border: none;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montaga', serif;
+}
+
+h3 {
+  font-family: 'Montaga', serif;
+}
+
+/*******************************CLASS SELECTER*******************************/
+.android{
+  color: white;
+  text-decoration: none;
+}
+
+.android:hover{
+  color: white;
+}
+
+.copyRight {
+  padding-bottom: 6rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.container-fluid{
+  padding: 1rem 3rem;
+}
+
+.icon-image {
+  width: 30%;
+  padding: 0 1.875rem 0.625rem 0;
+}
+
+.ins{
+  color: white;
+  text-decoration: none;
+}
+
+.ins:hover{
+  color: white;
+}
+
+.ios{
+  color: white;
+  text-decoration: none;
+}
+
+.ios:hover{
+  color: white;
+}
+
+.meet {
+  padding: 1.875rem;
+}
+
+.navbar-brand {
+  color: black;
+  padding: 0 0 0 1.875rem;
+  font-size: 2rem;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar-collapse {
+  padding: 0 0 0 1.875rem;
+}
+
+.navbar-custom {
+  background-color: white;
+  padding: 0.625rem 0;
   width: 100%;
   position: fixed;
   top: 0;
 }
 
-.navbar-brand {
-  padding: 0 0 0 1.875rem;
-  font-size: 2.5rem;
+.nav-item {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.1rem;
 }
 
-.icon-image{
-  width: 30%;
-  padding: 0 1.875rem 0.625rem 0;
+.nav-item :hover {
+  color: #5a998d;
 }
 
-.navbar-collapse{
-  padding: 0 0 0 1.875rem;
+.nav-link {
+  color: black;
 }
 
-.navbar-toggler{
-  margin: 0 1.875rem 0 0;
+.navbar-toggler {
+  margin: 0 2rem 0 0;
+  padding: 0;
 }
 
-.row{
-  margin: 0;
+.website{
+  color: white;
+  text-decoration: none;
 }
 
-.app-store-button{
-  width: 40%
+.website:hover{
+  color: white;
 }
 
-#title{
+/*********************************ID SELECTER*********************************/
+#title {
   padding-top: 6.25rem;
-  background-color: #FFBD9B;
+  background-color: #CDF0EA;
+}
+
+#footer {
+  background-color: #343A40;
+  color: white;
+  padding: 2.813rem;
+  text-decoration: none;
 }
