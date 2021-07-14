@@ -9,12 +9,14 @@ h1 {
   line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Montaga', serif;
+h2{
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
 }
 
 h3 {
-  font-family: 'Montaga', serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 /*******************************CLASS SELECTER*******************************/
@@ -35,6 +37,15 @@ h3 {
 
 .container-fluid{
   padding: 1rem 3rem;
+}
+
+.fas{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
 }
 
 .icon-image {
@@ -61,7 +72,9 @@ h3 {
 }
 
 .iphone{
-  margin-top: 60px;
+  margin-top: 3.75rem;
+  width: 50%;
+  transform: rotate(25deg);
 }
 
 .meet {
@@ -84,15 +97,17 @@ h3 {
 
 .navbar-custom {
   background-color: white;
-  padding: 0.625rem 0;
+  padding: 0.625rem 1rem;
   width: 100%;
   position: fixed;
   top: 0;
+  z-index:1;
 }
 
 .nav-item {
   font-family: 'Architects Daughter', cursive;
   font-size: 1.1rem;
+  padding: 0 1rem;
 }
 
 .nav-item :hover {
@@ -106,6 +121,17 @@ h3 {
 .navbar-toggler {
   margin: 0 2rem 0 0;
   padding: 0;
+}
+
+.press-logo{
+  margin: 1.25rem 1.25rem 7.5rem;
+  width: 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 2.5rem;
 }
 
 .website{
@@ -123,9 +149,26 @@ h3 {
   background-color: #CDF0EA;
 }
 
+#features{
+  padding: 5rem 9.375rem;
+  text-align: center;
+}
+
 #footer {
   background-color: #343A40;
   color: white;
   padding: 2.813rem;
+  text-align: left;
   text-decoration: none;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7.5rem 9.375rem 2.5rem;
 }
