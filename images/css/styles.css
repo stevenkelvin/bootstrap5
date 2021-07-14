@@ -1,0 +1,174 @@
+button{
+  background-color: #CDF0EA;
+  border: none;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2{
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+/*******************************CLASS SELECTER*******************************/
+.android{
+  color: white;
+  text-decoration: none;
+}
+
+.android:hover{
+  color: white;
+}
+
+.copyRight {
+  padding-bottom: 6rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.container-fluid{
+  padding: 1rem 3rem;
+}
+
+.fas{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+.icon-image {
+  width: 30%;
+  padding: 0 1.875rem 0.625rem 0;
+}
+
+.ins{
+  color: white;
+  text-decoration: none;
+}
+
+.ins:hover{
+  color: white;
+}
+
+.ios{
+  color: white;
+  text-decoration: none;
+}
+
+.ios:hover{
+  color: white;
+}
+
+.iphone{
+  margin-top: 3.75rem;
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+.meet {
+  padding: 1.875rem;
+}
+
+.navbar-brand {
+  color: black;
+  padding: 0 0 0 1.875rem;
+  font-size: 2rem;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar-collapse {
+  padding: 0 0 0 1.875rem;
+}
+
+.navbar-custom {
+  background-color: white;
+  padding: 0.625rem 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index:1;
+}
+
+.nav-item {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+}
+
+.nav-item :hover {
+  color: #5a998d;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar-toggler {
+  margin: 0 2rem 0 0;
+  padding: 0;
+}
+
+.press-logo{
+  margin: 1.25rem 1.25rem 7.5rem;
+  width: 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 2.5rem;
+}
+
+.website{
+  color: white;
+  text-decoration: none;
+}
+
+.website:hover{
+  color: white;
+}
+
+/*********************************ID SELECTER*********************************/
+#title {
+  padding-top: 6.25rem;
+  background-color: #CDF0EA;
+}
+
+#features{
+  padding: 5rem 9.375rem;
+  text-align: center;
+}
+
+#footer {
+  background-color: #343A40;
+  color: white;
+  padding: 2.813rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7.5rem 9.375rem 2.5rem;
+}
