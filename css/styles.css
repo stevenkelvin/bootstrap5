@@ -10,7 +10,7 @@ h1 {
 }
 
 h2{
-  color: #fff;
+  color: black;
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
 }
@@ -39,12 +39,28 @@ h3 {
   padding: 1rem 3rem;
 }
 
-.fas{
+.carousel-button-prev{
+  margin: 43.75rem 0 0 18.75rem;
+  color: red;
+}
+
+.carousel-button-next{
+  margin: 43.75rem 18.75rem 0 0;
+  color: green;
+}
+
+.carousel-control{
+  width: 0;
+  height: 0;
+}
+
+
+.features-icon{
   color: #ef8172;
   margin-bottom: 1.5rem;
 }
 
-.fas:hover{
+.features-icon:hover{
   color: #ff4c68;
 }
 
@@ -124,8 +140,8 @@ h3 {
 }
 
 .press-logo{
-  margin: 1.25rem 1.25rem 7.5rem;
-  width: 15%;
+  margin: 3rem 1.25rem 5rem;
+  width: 16%;
 }
 
 .testimonial-image{
@@ -163,12 +179,14 @@ h3 {
 }
 
 #press{
-  background-color: #ef8172;
+  background-color: #F6C6EA;
   text-align: center;
 }
 
 #testimonials{
-  background-color: #ef8172;
+  background-color: #F6C6EA;
   text-align: center;
-  padding: 7.5rem 9.375rem 2.5rem;
+}
+#testimonials-slide{
+  padding: 5rem 9.375rem 5rem;
 }
