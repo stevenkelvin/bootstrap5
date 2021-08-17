@@ -1,8 +1,3 @@
-button{
-  background-color: #CDF0EA;
-  border: none;
-}
-
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
@@ -27,6 +22,12 @@ h3 {
 
 .android:hover{
   color: white;
+}
+
+.button{
+  background-color: #CDF0EA;
+  border: 0;
+  padding: 0;
 }
 
 .copyRight {
@@ -139,9 +140,11 @@ h3 {
   padding: 0;
 }
 
-.press-logo{
-  margin: 3rem 1.25rem 5rem;
-  width: 16%;
+.press-button{
+  background-color: #F6C6EA;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .testimonial-image{
@@ -180,6 +183,7 @@ h3 {
 
 #press{
   background-color: #F6C6EA;
+  padding: 3rem 1.25rem 5rem;
   text-align: center;
 }
 
