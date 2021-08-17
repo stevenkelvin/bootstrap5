@@ -30,6 +30,21 @@ h3 {
   padding: 0;
 }
 
+.card-header-1{
+  border: none;
+  margin: 2rem 0 0;
+}
+
+.card-header-2{
+  border: none;
+  margin: 4rem 0 0;
+}
+
+.card-header-3{
+  border: none;
+  margin: 2rem 0 0;
+}
+
 .copyRight {
   padding-bottom: 6rem;
   line-height: 1.5;
@@ -139,11 +154,44 @@ h3 {
   padding: 0;
 }
 
+.money{
+  color: white;
+}
+
 .press-button{
   background-color: #F6C6EA;
   border: 0;
   margin: 20px;
   padding: 0;
+}
+
+.pricing-box{
+  padding: 4rem .5rem;
+}
+
+.pricing-box-2{
+  padding: 2rem .5rem;
+}
+
+.pricing-card-1{
+  background-color: #8274b5;
+  border: none;
+  color: white;
+  height: 28rem;
+}
+
+.pricing-card-2{
+  background-color: #78b792;
+  border: none;
+  color: white;
+  height: 32rem;
+}
+
+.pricing-card-3{
+  background-color: #6098dd;
+  border: none;
+  color: white;
+  height: 28rem;
 }
 
 .testimonial-image{
@@ -168,6 +216,7 @@ h3 {
 }
 
 #features{
+  background-color: #F9F9F9;
   padding: 5rem 9.375rem;
   text-align: center;
 }
@@ -183,6 +232,11 @@ h3 {
 #press{
   background-color: #F6C6EA;
   padding: 3rem 1.25rem 5rem;
+  text-align: center;
+}
+
+#pricing{
+  padding: 6rem 15rem;
   text-align: center;
 }
 
