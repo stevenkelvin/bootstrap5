@@ -40,16 +40,6 @@ h3 {
   margin: 2rem 0 0;
 }
 
-.carousel-button-prev{
-  margin: 43.75rem 0 0 18.75rem;
-  color: red;
-}
-
-.carousel-button-next{
-  margin: 43.75rem 18.75rem 0 0;
-  color: green;
-}
-
 .carousel-control{
   width: 0;
   height: 0;
@@ -74,11 +64,6 @@ h3 {
   color: #ff4c68;
 }
 
-.icon-image {
-  width: 30%;
-  padding: 0 1.875rem 0.625rem 0;
-}
-
 .ins{
   color: white;
   text-decoration: none;
@@ -98,9 +83,11 @@ h3 {
 }
 
 .iphone{
-  margin-top: 3.75rem;
-  width: 50%;
+  right: 18%;
+  padding-top: 3rem;
+  width: 25%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 .meet {
@@ -109,7 +96,7 @@ h3 {
 
 .navbar-brand {
   color: black;
-  padding: 0 0 0 1.875rem;
+  padding: 0 0 0 1rem;
   font-size: 2rem;
 }
 
@@ -238,8 +225,12 @@ h3 {
 }
 
 /*********************************ID SELECTER*********************************/
+#cta{
+  text-align: center;
+}
+
 #title {
-  padding-top: 6.25rem;
+  padding: 6.25rem 0;
   background-color: #CDF0EA;
 }
 
@@ -247,6 +238,7 @@ h3 {
   background-color: #F9F9F9;
   padding: 5rem 9.375rem;
   text-align: center;
+  position: relative;
 }
 
 #footer {
@@ -274,4 +266,35 @@ h3 {
 }
 #testimonials-slide{
   padding: 5rem 9.375rem 5rem;
+}
+
+
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  #testimonials-slide{
+    padding: 5rem 4rem 5rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  .iphone{
+    width: 55%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  .press-logo{
+    width: 14rem;
+  }
+
 }
