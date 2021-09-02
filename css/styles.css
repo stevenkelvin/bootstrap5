@@ -1,46 +1,48 @@
-h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 5rem;
-  line-height: 1.5;
-}
-
-h2{
-  color: black;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 3rem;
-}
-
-h3 {
+h1, h2, h3 {
   font-family: 'Source Code Pro', monospace;
 }
 
 /*******************************CLASS SELECTER*******************************/
-.android{
+.android {
   color: white;
   text-decoration: none;
 }
 
-.android:hover{
+.android:hover {
   color: white;
 }
 
-.brand{
+.brand {
   width: 30%;
   margin-right: 1.5rem;
 }
 
-.button{
+.btn-lg {
+  border-radius: .6rem;
+  border: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.button {
   background-color: #CDF0EA;
-  border: 0;
+  border: none;
+  margin-top: 1rem;
   padding: 0;
 }
 
-.card-header-custom{
+.card {
+  border: none;
+  color: white;
+  margin: 1rem 0;
+}
+
+.card-header-custom {
   border: none;
   margin: 2rem 0 0;
 }
 
-.carousel-control{
+.carousel-control {
   width: 0;
   height: 0;
 }
@@ -51,38 +53,47 @@ h3 {
   margin-bottom: 0;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0 3rem;
 }
 
-.features-icon{
+.cta-button {
+  margin-top: 2rem;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features-icon {
   color: #ef8172;
   margin-bottom: 1.5rem;
 }
 
-.features-icon:hover{
+.features-icon:hover {
   color: #ff4c68;
 }
 
-.ins{
+.ins {
   color: white;
   text-decoration: none;
 }
 
-.ins:hover{
+.ins:hover {
   color: white;
 }
 
-.ios{
+.ios {
   color: white;
   text-decoration: none;
 }
 
-.ios:hover{
+.ios:hover {
   color: white;
 }
 
-.iphone{
+.iphone {
   right: 18%;
   padding-top: 3rem;
   width: 25%;
@@ -91,6 +102,9 @@ h3 {
 }
 
 .meet {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  line-height: 1.5;
   padding: 1.875rem;
 }
 
@@ -104,7 +118,7 @@ h3 {
   color: black;
 }
 
-.navbar-nav{
+.navbar-nav {
   margin-top: 1rem;
 }
 
@@ -140,103 +154,95 @@ h3 {
   padding: 0;
 }
 
-.money{
+.money {
   color: white;
+  font-size: 3rem;
 }
 
-.press-button{
+.press-button {
   background-color: #F6C6EA;
   border: 0;
   margin: 1.25rem;
   padding: 0;
 }
 
-.pricing-button-1{
+.pricing-button-1 {
   background-color: #6755a2;
-  border-radius: .6rem;
-  border: none;
-  color: white;
-  margin-bottom: 1rem;
 }
 
-.pricing-button-1:hover{
+.pricing-button-1:hover {
   background-color: #593eb5;
 }
 
-.pricing-button-2{
+.pricing-button-2 {
   background-color: #619677;
-  border-radius: .6rem;
-  border: none;
-  color: white;
-  margin-bottom: 1rem;
 }
 
-.pricing-button-2:hover{
+.pricing-button-2:hover {
   background-color: #3b8057;
 }
 
-.pricing-button-3{
+.pricing-button-3 {
   background-color: #4c7ec0;
-  border-radius: .6rem;
-  border: none;
-  color: white;
   margin-top: .5rem;
-  margin-bottom: 1rem;
 }
 
-.pricing-button-3:hover{
+.pricing-button-3:hover {
   background-color: #3e6ea8;
 }
 
-.pricing-card-1{
+.pricing-card-1 {
   background-color: #8274b5;
-  border: none;
-  color: white;
-  margin: 1rem 0;
 }
 
-.pricing-card-2{
+.pricing-card-2 {
   background-color: #78b792;
-  border: none;
-  color: white;
-  margin: 1rem 0;
 }
 
-.pricing-card-3{
+.pricing-card-3 {
   background-color: #6098dd;
-  border: none;
-  color: white;
-  margin: 1rem 0;
 }
 
-.testimonial-image{
+.section-heading {
+  color: black;
+  font-size: 3rem;
+}
+
+.testimonial-text {
+  color: black;
+  font-size: 3rem;
+}
+
+.testimonial-image {
   border-radius: 100%;
   width: 10%;
   margin: 2.5rem;
 }
 
-.website{
+.website {
   color: white;
   text-decoration: none;
 }
 
-.website:hover{
+.website:hover {
   color: white;
 }
 
 /*********************************ID SELECTER*********************************/
-#cta{
+#cta {
+  padding: 5rem 9.375rem;
+  background-color: #CDF0EA;
   text-align: center;
 }
 
 #title {
-  padding: 6.25rem 0;
+  padding: 6.25rem 0 10rem;
   background-color: #CDF0EA;
 }
 
-#features{
+#features {
   background-color: #F9F9F9;
-  padding: 5rem 9.375rem;
+  padding: 4rem 9.375rem;
   text-align: center;
   position: relative;
 }
@@ -249,52 +255,71 @@ h3 {
   text-decoration: none;
 }
 
-#press{
+#press {
   background-color: #F6C6EA;
   padding: 3rem 1.25rem 5rem;
   text-align: center;
 }
 
-#pricing{
+#pricing {
   padding: 2rem 5rem;
   text-align: center;
 }
 
-#testimonials{
+#testimonials {
   background-color: #F6C6EA;
   text-align: center;
-}
-#testimonials-slide{
-  padding: 5rem 9.375rem 5rem;
+  position: relative;
 }
 
-
+#testimonials-slide {
+  padding: 5rem 9.375rem;
+}
 
 @media (max-width: 991px) {
+  #cta {
+    padding: 5rem 3rem;
+  }
+
   #title {
     text-align: center;
   }
 
-  #testimonials-slide{
+  #testimonials-slide {
     padding: 5rem 4rem 5rem;
   }
 
-  h1{
-    font-size: 3rem;
+  .copyRight {
+    padding-bottom: 3rem;
   }
 
-  h2{
+  .cta-heading {
     font-size: 2rem;
   }
 
-  .iphone{
+  .meet {
+    font-size: 3rem;
+  }
+
+  .mpney{
+    font-size: 2rem;
+  }
+
+  .iphone {
     width: 55%;
     position: static;
     transform: rotate(0);
   }
 
-  .press-logo{
+  .press-logo {
     width: 14rem;
   }
 
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
 }
